@@ -61,10 +61,16 @@ public abstract class VertexNetwork {
 	    location.add(new Vertex(scan.nextDouble(), scan.nextDouble()));
         }
         
-        for(Vertex v : location) //delete
-        {
-        	System.out.println("Vertix : " + v);
-        }
+//        for(Vertex v : location) //delete
+//        {
+//        	System.out.println("Vertix " + location.indexOf(v) + " : " + v);
+//        	for(Vertex va : location){
+//        		System.out.println("Distance to " + location.indexOf(va) + " is " + v.distance(va));
+//        	}
+//        	System.out.println();
+//        }
+        
+        
 
         return location;
     }
@@ -79,10 +85,10 @@ public abstract class VertexNetwork {
 	  }
         }
         
-        for(Edge e : edges) //delete
-        {
-        	System.out.println("Edge : " + e);
-        }
+//        for(Edge e : edges) //delete
+//        {
+//        	System.out.println("Edge : " + e);
+//        }
         
         return edges;
     }
